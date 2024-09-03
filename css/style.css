@@ -1,0 +1,180 @@
+@charset "utf-8";
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    font-family: "맑은고딕";
+    color: #215355;
+}
+
+body {
+    /* width: 1000px; */
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    font-size: 20px;
+
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    float: left;
+    width: 16%;
+}
+
+.logo>a>img{
+    width: 105px;
+    height: 68px;
+}
+
+.top {
+    float: left;
+    height: 650px;
+    width: 200px;
+}
+
+.logo {
+    float: left;
+    height: 40px;
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.menu {
+    width: 180px;
+    top:100px;
+    text-align: center;
+}
+.navi>li{
+    float:left;
+    width:180;
+}
+.navi>li>a{
+    height:40px;
+    width: 180px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: firebrick;
+    color: #ffffff;
+}
+.navi>li>a:hover{
+    background-color: black;
+    color: #ffffff;
+}
+.navi>li>a:hover{
+    background-color: #930930;
+    color: #ffffff;
+}
+.submenu{
+    float: left;
+    width:100%;
+    display:none;
+}
+.submenu>li>a{
+    height: 40px;
+    width: 180px;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color:#999999;
+    color:#ffffff;
+}
+.submenu>li>a:hover{
+    background-color: #999999;
+    color: #ffffff;
+}
+.imgslide {
+    float: right;
+    height: 500px;
+    width: 80%;
+    position: relative;
+}
+.imgslide>a{
+    display: flex;
+    justify-content: center; /* 가로 중앙 정렬 */
+    align-items: center;     /* 세로 중앙 정렬 */
+    height: 100vh;           /* 화면 전체 높이 */
+}
+.imgslide>a>img{
+    max-width: 100%;         /* 이미지 크기 조절 (선택 사항) */
+    height: auto;  
+}
+.imgtext{
+    height:50px;
+    width: 300px;
+    position: absolute;
+    margin: -25px 0 0 -150px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 50px;
+    background-color: rgba(40,40,40,0.3);
+    left:50%;
+    top:50%;
+}
+.contents {
+    float: right;
+    height: 300px;
+    width: 800px;
+}
+
+.notice {
+    float: left;
+    height: 200px;
+    width: 300px;
+}
+
+.gallery {
+    float: left;
+    height: 200px;
+    width: 300px;
+}
+
+.shortcut {
+    float: left;
+    height: 200px;
+    width: 200px;
+}
+
+footer {
+    float: right;
+}
+
+.bottom {
+    float: left;
+    height: 100px;
+    width: 800px;
+}
+
+.copy {
+    float: left;
+    height: 100px;
+    width: 600px;
+}
+
+.site {
+    float: right;
+    height: 100px;
+    width: 200px;
+}
+
+.sns {
+    float: right;
+    height: 50px;
+    width: 200px;
+}
+
+.familysite {
+    float: right;
+    height: 50px;
+    width: 200px;
+}
